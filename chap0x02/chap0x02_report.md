@@ -10,7 +10,7 @@
     sudo apt-get install asciinema
 
 
-![](/img/1.png)
+![](img/1.png)
 ps:输入同样的指令，第一次报错第二次可以运行
 
 ![](img/2.png)
