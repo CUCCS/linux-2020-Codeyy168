@@ -46,11 +46,11 @@ Ubuntu server 18.04(64bit)
 
 + 名字最长的球员是谁？名字最短的球员是谁？  
     名字最长的球员是
-    ``` Lazaros Christodoulopoulos```，
+    `Lazaros Christodoulopoulos`，
     名字最短的球员是
-    ```Jô```
+    `Jô`
 + 年龄最大的球员是谁？年龄最小的球员是谁？  
-年龄最大的球员是 ```42``` 岁的 ```Faryd Mondragon```，年龄最小的球员是 ```18``` 岁的 ```Fabrice Olinga```
+年龄最大的球员是 `42` 岁的 `Faryd Mondragon`，年龄最小的球员是 `18` 岁的 `Fabrice Olinga`
 
 
 任务三
@@ -63,4 +63,17 @@ Ubuntu server 18.04(64bit)
 - [x] 分别统计不同4XX状态码对应的TOP 10 URL和对应出现的总次数
 - [x]  给定URL输出TOP 100访问来源主机  
 
-#### 处理结果
+#### 处理结果  
+shell脚本将结果输入到了文本文件中，见文件夹res  
+[前两项](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x04/chap0x04/res/res1.txt)  
+
+[第三、四、五项](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x04/chap0x04/res/res2.txt)  
+注:统计的4XX状态码分别为403和404  
+
+
+[最后一项](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x04/chap0x04/res/res3.txt)  
+注:统计给定URL为/image/  
+
+写在最后
+-
+三个任务的脚本见 `program` 文件夹，其中 `task1.sh` 用于完成任务一，`task2.sh` 用于完成任务二，`task3.sh` 用于完成任务三
