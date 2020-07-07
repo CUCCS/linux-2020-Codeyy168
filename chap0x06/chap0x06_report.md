@@ -32,12 +32,13 @@ PermitRootLogin without-password
 并使用指令```sudo systemctl restart ssh```重启ssh服务
 
 ##### 配置文件
-[sshd_config]()
+[sshd_config](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/sshd_config)
 
 #### FTP配置
 ##### 1.配置文件
-[vsftpd.sh]()
-[vsftpd.conf]()
+[vsftpd.sh](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/sh/vsftpd.sh)
+
+[vsftpd.conf](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/vsftpd.conf)
 
 ##### 2.远程配置vsftp
 将```vsftpd.sh```拷贝到 目标主机
@@ -50,9 +51,11 @@ PermitRootLogin without-password
 
 #### NFS配置
 ##### 1.配置文件
-[nfs_c.sh]()
-[nfs_s.sh]()
-[exports]()
+[nfs_c.sh](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/sh/nfs_c.sh)
+
+[nfs_s.sh](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/sh/nfs_s.sh)
+
+[exports](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/exports)
 
 ##### 2.创建共享目录
 在通过 工作主机 运行脚本在 目标主机 安装```vsftpd```并完成相关配置 将```nfs_s.sh```拷贝到 目标主机 ，工作主机 运行```nfs_s.sh```脚本
@@ -63,9 +66,11 @@ PermitRootLogin without-password
 
 #### DHCP配置
 ##### 1.配置文件
-[dhcp.sh]()
-[dhcpd.conf]()
-[isc-dhcp-server]()
+[dhcp.sh](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/sh/dhcp.sh)
+
+[dhcpd.conf](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/dhcpd.conf)
+
+[isc-dhcp-server](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/isc-dhcp-server)
 
 ##### 2.配置过程
 配置网卡
@@ -104,10 +109,13 @@ server的Internet网卡：
 
 #### 配置DNS
 ##### 1.配置文件
-[client-head]()
-[server-named.conf.options]()
-[server-named.conf.local]()
-[server-db.cuc.edu.cn]()
+[head](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/head)
+
+[server-named.conf.options](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/server-named.conf.options)
+
+[server-named.conf.local](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/named.conf.local)
+
+[server-db.cuc.edu.cn](https://github.com/CUCCS/linux-2020-Codeyy168/blob/chap0x06/chap0x06/config/db.cuc.edu.cn)
 
 ##### 2.配置过程
 使用指令```sudo apt-get install bind9```安装Bind
